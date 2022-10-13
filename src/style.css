@@ -1,0 +1,23 @@
+* {
+  padding: 9;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#tabuleiro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
